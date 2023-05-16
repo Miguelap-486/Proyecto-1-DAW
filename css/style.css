@@ -1,0 +1,322 @@
+body{
+      background-image: url(../img/background.jpg);
+      font-family: 'Orbitron', sans-serif;
+}
+
+h1{
+      font-family: 'Orbitron', sans-serif;
+}
+@media only screen and (min-width : 901px) {
+
+      
+      /*barra menu*/
+      #menu{
+            width:100%;
+            background-color:white;
+            position:fixed;
+            display: flex;
+            justify-content: center;
+            top: 0;
+           
+      }
+      a{
+            text-decoration: none;
+            color: white;
+          }
+      #menu>nav>img{
+            position: absolute;
+            height: 35px;
+            width: 35px;
+            left:1%;
+            padding: 1px;
+      }
+      
+      #menu>nav ul {  
+            position: relative;
+            list-style:none;
+            margin:0;
+            padding:0;
+            
+      
+            
+      }
+           
+      #menu>nav ul li {
+            background-color:white;
+            
+      }
+      
+      #menu>nav ul a {
+            position: sticky;
+            overflow: auto;
+      
+            display:block;
+            color:black;
+            text-decoration:none;
+            font-weight:400;
+            font-size:15px;
+            padding:10px;
+            text-transform:uppercase;
+            
+      }
+           
+           
+      #menu>nav ul li {
+            position:relative;
+            float:left;
+            margin:0;
+            padding:0;
+      }
+           
+           
+      #menu>nav ul li:hover {
+            background:darkgrey;
+      }
+      
+      #menu>nav ul ul {
+            display:none;
+            position:absolute;
+            top:100%;
+            left:0;
+            background:#eee;
+            padding:0;
+            
+      }
+           
+           
+      #menu>nav ul ul li {
+            float:none;
+      }
+           
+           
+      #menu>nav ul ul a {
+            line-height:100%;
+            padding:10px 15px;
+      }
+           
+           
+      #menu>nav ul li:hover > ul {
+            display:block;
+      }
+      .icon-cart:before {
+            content: "\e93a";
+          }
+
+           /*video de fondo*/
+      #video>video{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            overflow: hidden;
+      }
+
+      #video>h1{
+            font-family:zenzai, Zenzai itache;
+            color: black;
+            position: absolute;
+            text-align: center;
+            top:5%;
+            left: 40%;
+      }
+      
+      }
+
+     
+     
+      @media only screen and (max-width : 900px) {
+            /*Barra menu*/
+            #menu{
+                  width:100%;
+                  background-color:white;
+                  position:fixed;
+                  display: flex;
+                  justify-content: center;
+                 
+            }
+            #menu>nav>img{
+                 display: none;
+            }
+            #menu>nav ul {  
+                  position: relative;
+                  list-style:none;
+                  margin:0;
+                  padding:0;
+            
+                  
+            }
+                 
+            #menu>nav ul li {
+                  background-color:white;
+                  
+            }
+                 
+            #menu>nav ul a {
+                  display:block;
+                  color:black;
+                  text-decoration:none;
+                  font-weight:500;
+                  font-size:0.80em;
+                  padding:10px;
+                  text-transform:uppercase;
+                  
+            }
+                 
+                 
+            #menu>nav ul li {
+                  position:relative;
+                  float:left;
+                  margin:0;
+                  padding:0;
+            }
+                 
+                 
+            #menu>nav ul li:hover {
+                  background:darkgrey;
+            }
+            
+            #menu>nav ul ul {
+                  display:none;
+                  position:absolute;
+                  top:100%;
+                  left:0;
+                  background:#eee;
+                  padding:0;
+                  
+            }
+                 
+                 
+            #menu>nav ul ul li {
+                  float:none;
+            }
+                 
+                 
+            #menu>nav ul ul a {
+                  line-height:100%;
+                  padding:5px 10px;
+            }
+                 
+                 
+            #menu>nav ul li:hover > ul {
+                  display:block;
+            }
+            /*video de fondo*/
+            #video>video{
+                  position: absolute;
+                  bottom: 0;
+                  right: 0;
+                  width: auto;
+                  height: auto;
+                  z-index: -1;
+                  overflow: hidden;
+            }
+            #video>h1{
+                  font-family:zenzai, Zenzai itache;
+                  color: black;
+                  position: absolute;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  top:5%;
+                  z-index: -1;
+                  left: 5%;
+            }
+            }
+      
+ @media (min-width: 320px) and (max-width: 767px) {
+      /*barra menu*/
+      #menu{
+            width:100%;
+            background-color:white;
+            position:fixed;
+            display: flex;
+            justify-content: center;
+           
+      }
+      #menu>nav ul {  
+            position: relative;
+            list-style:none;
+            margin:0;
+            padding:0;
+      
+            
+      }
+      #menu>nav>img{
+           display: none;
+      }
+           
+      #menu>nav ul li {
+            background-color:white;
+            
+      }
+           
+      #menu>nav ul a {
+            display:block;
+            color:black;
+            text-decoration:none;
+            font-weight:300;
+            font-size:0.50em;
+            padding:10px;
+            text-transform:uppercase;
+            
+      }
+           
+           
+      #menu>nav ul li {
+            position:relative;
+            float:left;
+            margin:0;
+            padding:0;
+      }
+           
+           
+      #menu>nav ul li:hover {
+            background:darkgrey;
+      }
+      
+      #menu>nav ul ul {
+            display:none;
+            position:absolute;
+            top:100%;
+            background:#eee;
+            padding:0;
+            
+      }
+           
+           
+      #menu>nav ul ul li {
+            float:none;
+      }
+           
+           
+      #menu>nav ul ul a {
+            line-height:100%;
+            padding:5px 10px;
+      }
+           
+           
+      #menu>nav ul li:hover > ul {
+            display:block;
+      }
+      /*video fondo*/
+      #video>video{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: auto;
+            height: auto;
+            z-index: -2;
+            overflow: hidden;
+      }
+      
+      #video>h1{
+            font-family:zenzai, Zenzai itache;
+            color: black;
+            position: absolute;
+            left: 25%;
+            top:5%;
+            z-index: -1;
+      }
+      }
